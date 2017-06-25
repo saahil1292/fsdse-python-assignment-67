@@ -1,7 +1,5 @@
 import numpy as np
 
-
 def solution(t):
-    """
-    Enter code here
-    """
+    input_matrix = np.asarray(t) #converts any iterable to ndarray
+    return input_matrix
